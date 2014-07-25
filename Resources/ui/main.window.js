@@ -36,14 +36,7 @@ module.exports = function() {
 			fontFamily : 'GentiumPlus'
 		}
 	}));
-	self.ipa.animate({
-		opacity : 0.96,
-		duration : 800
-	});
-	self.message.animate({
-		opacity : 0.96,
-		duration : 800
-	});
+	
 	self.ipa = Ti.UI.createTextArea({
 		top : 0,
 		borderWidth : 1,
@@ -60,6 +53,14 @@ module.exports = function() {
 			fontFamily : 'GentiumPlus'
 		}
 	});
+	self.ipa && self.ipa.animate({
+		opacity : 0.96,
+		duration : 800
+	});
+	self.message && self.message.animate({
+		opacity : 0.96,
+		duration : 800
+	});	
 	self.ipa.add(Ti.UI.createLabel({
 		bottom : 10,
 		height : Ti.UI.SIZE,

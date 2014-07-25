@@ -2,7 +2,7 @@
 <ti:app xmlns:ti="http://ti.appcelerator.org">
     <id>de.appwerft.ipaspreche</id>
     <name>ʃpʁɛçmaʃinə</name>
-    <version>1.0.6</version>
+    <version>1.0.7</version>
     <publisher>rainerschleevoigt</publisher>
     <url>http://</url>
     <description>not specified</description>
@@ -41,7 +41,7 @@
     </ios>
     <android xmlns:android="http://schemas.android.com/apk/res/android">
         <tool-api-level>14</tool-api-level>
-        <manifest android:versionCode="6">
+        <manifest android:versionCode="7">
             <application android:theme="@style/Theme.Ipa"/>
             <uses-sdk android:minSdkVersion="14" android:targetSdkVersion="19"/>
             <activity android:configChanges="keyboardHidden"
